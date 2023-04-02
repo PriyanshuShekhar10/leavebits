@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leave Request Form</title>
+  </head>
+  <body>
+    <h1>Leave Request Form</h1>
+    <form method="post" action="/leave">
+      <label for="id">ID:</label>
+      <input type="text" name="id" id="id" /><br /><br />
+
+      <label for="full_name">Full Name:</label>
+      <input type="text" name="full_name" id="full_name" /><br /><br />
+
+      <label for="phone">Phone:</label>
+      <input type="text" name="phone" id="phone" /><br /><br />
+
+      <label for="room">Room:</label>
+      <input type="text" name="room" id="room" /><br /><br />
+
+      <select id="bhawan" name="bhawan" required>
+        <option value="" disabled selected>Select Hostel</option>
+        <option value="Srinivasa Ramanujan Bhawan">
+          Srinivasa Ramanujan Bhawan
+        </option>
+        <option value="Krishna Bhawan">Krishna Bhawan</option>
+        <option value="Gandhi Bhawan">Gandhi Bhawan</option>
+        <option value="Vishwakarma Bhawan">Vishwakarma Bhawan</option>
+        <option value="Meera Bhawan">Meera Bhawan</option>
+        <option value="Shankar Bhawan">Shankar Bhawan</option>
+        <option value="Vyas Bhawan">Vyas Bhawan</option>
+        <option value="Ram Bhawan">Ram Bhawan</option>
+        <option value="Budh Bhawan">Budh Bhawan</option></select
+      ><br /><br />
+
+      <label for="dep_date">Departure Date:</label>
+      <input type="text" name="dep_date" id="dep_date" />
+      <select id="dep_month" name="dep_month">
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+        <option value="Jun">Jun</option>
+        <option value="Jul">Jul</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+      </select>
+      <input type="text" name="dep_year" id="dep_year" /> <br /><br />
+
+      <label for="ret_date">Return Date:</label>
+      <input type="text" name="ret_date" id="ret_date" />
+      <select id="ret_month" name="ret_month">
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+        <option value="Jun">Jun</option>
+        <option value="Jul">Jul</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+      </select>
+      <input type="text" name="ret_year" id="ret_year" /> <br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

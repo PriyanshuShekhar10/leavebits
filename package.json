@@ -1,0 +1,23 @@
+{
+  "name": "leave-bits---test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^3.36.1",
+    "express": "^4.18.2",
+    "pdf-lib": "^1.17.1",
+    "pizzip": "^3.1.4",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
