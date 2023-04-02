@@ -1,4 +1,4 @@
-const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib;
+const { PDFDocument, rgb, StandardFonts } = require("pdf-lib");
 
 async function modifyPdf() {
   const url = "leave.pdf";
