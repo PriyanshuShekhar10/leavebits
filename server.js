@@ -15,17 +15,7 @@ app.get("/", (req, res, next) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-var wardens = [
-  "Krishna M",
-  "Arun Kumar Jalan",
-  "Nitin Chaturvedi",
-  "Krishnendra Shekhawat",
-  "Rakhee",
-  "Kumar Sankar Bhattacharya",
-  "Praveen Kumar A.V.",
-  "Dipendu Bhunia",
-  "Sharad Shrivastava",
-];
+ var wardens = ['Rajesh Kumar', 'Srinivas Appari', 'Nitin Chaturvedi', 'Krishnendra Shekhawat', 'Surekha Bhanot', 'Kumar Sankar Bhattacharya', 'Praveen Kumar A.V.', 'MM Pandey', 'Sharad Shrivastava'];
 var hostels = [
   "Srinivasa Ramanujan Bhawan",
   "Krishna Bhawan",
